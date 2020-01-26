@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Homework 7-8</title>
+</head>
+<body>
+<h2>Homework 7-8</h2>
+
+<form method="post" action="/app/users/add">
+    <input name="username" type="text" placeholder="Your name" value="Name1"><br/>
+    <input name="password" type="password" placeholder="Password" value="wer"><br/>
+    <label> is active:
+        <select name="active">
+            <option value="true" selected>TRUE</option>
+            <option value="false">FALSE</option>
+        </select>
+    </label><br/>
+    <input name="age" type="text" placeholder="Age" value="23"><br/>
+    <input name="address" type="text" placeholder="Address" value="Address1"><br/>
+    <input name="telephone" type="text" placeholder="Telephone" value="telephone1"><br/>
+    <input value="add" type="submit"><br/>
+</form><br/>
+
+<form method="get" action="/app/users/find">
+    <input value="The list of users" type="submit">
+</form><br/>
+
+<p><a href="update.html">Update User</a></p>
+<p><a href="delete.html">Delete User</a></p>
+<p><a href="index.html">main page</a></p>
+
+
+</body>
+</html>
